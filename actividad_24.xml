@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos SYSTEM "articulos.dtd">
+<articulos>
+    <articulo>
+        <nombre>PS5 Slim</nombre>
+        <precio>550</precio>
+        <codigo>MDA325</codigo>
+        <fabricante>Sony</fabricante>
+    </articulo>
+    <articulo>
+        <nombre>Nintendo Switch</nombre>
+        <precio>300</precio>
+        <codigo>MDA532</codigo>
+        <fabricante>Nintendo Co</fabricante>
+    </articulo>
+     <articulo>
+        <nombre>Xbox Series X</nombre>
+        <precio>469</precio>
+        <codigo>MDA935</codigo>
+        <fabricante>Microsoft</fabricante>
+    </articulo>
+    
+</articulos>
