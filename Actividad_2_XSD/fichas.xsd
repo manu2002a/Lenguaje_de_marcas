@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <xsd:element name="fichas">
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="ficha" maxOccurs="unbounded">
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element name="nombre" type="xsd:string"/>
+                     <xsd:element name="edad" type="xsd:integer"/>
+                  </xsd:sequence>
+                  <xsd:attribute name="numero" type="xsd:integer" use="required"/>
+                  <xsd:any minOccurs="0" maxOccurs="unbounded" processContents="skip"/>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema>
