@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+    <equipo nombre="Real Madrid" ciudad="Madrid">
+        <entrenador/>
+            <jugadores>
+                <jugador posicion="delantero">
+                    <nombre>Karim Benzema</nombre>
+                    <nacionalidad>Francia</nacionalidad>
+                </jugador>
+                <jugador posicion="portero">
+                <nombre>Thibaut Courtois</nombre>
+                    <nacionalidad>Belgica</nacionalidad>
+                </jugador>
+            </jugadores>
+    </equipo>
+
+    <equipo nombre="FC Barcelona" ciudad="Barcelona">
+        <entrenador/>
+            <jugadores>
+                <jugador posicion="medio">
+                    <nombre>Lionel Messi</nombre>
+                    <nacionalidad>Argentina</nacionalidad>
+                </jugador>
+                <jugador posicion="defensa">
+                    <nombre>Gerard Piqué</nombre>
+                    <nacionalidad>España</nacionalidad>
+                </jugador>
+            </jugadores>
+    </equipo>
+</equipos>
